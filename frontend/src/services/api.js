@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8081/api/urls';
+const API_URL = 'https://trimly-url-shortener.onrender.com/api/urls';
 
 export const shortenUrl = async (originalUrl) => {
     const response = await fetch(API_URL, {
